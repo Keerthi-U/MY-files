@@ -1,0 +1,49 @@
+{
+    "data": [
+    {
+    "1": {
+    "student_id": "1",
+    "name": "abi",
+    "email": "abi@gmail.com",
+    "course": [
+    {
+    "course_id": "3",
+    "course_name": "java",
+    "price": "20,000"
+    },
+    {
+    "course_id": "4",
+    "course_name": ".net",
+    "price": "21,000"
+    }
+    ]
+    },
+    "2": {
+    "student_id": "2",
+    "name": "nithya",
+    "email": "nithya@gmail.com",
+    "course": [
+    {
+    "course_id": "1",
+    "course_name": "Php",
+    "price": "12,000"
+    }
+    ]
+    },
+    "3": {
+    "student_id": "3",
+    "name": "kiruthika",
+    "email": "kiruthika@gmail.com",
+    "course": [
+    {
+    "course_id": "2",
+    "course_name": "dbms",
+    "price": "18,000"
+    }
+    ]
+    }
+    }
+    ],
+    "status": true,
+    "message": "Data Listed Successfully"
+    }

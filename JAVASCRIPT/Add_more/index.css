@@ -1,0 +1,17 @@
+.my-2{
+    gap:12px;
+}
+#total{
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 5%;
+    text-align: center;
+}
+::placeholder {
+    color:white;
+    opacity: 1; 
+
+  }
+ #Alltotal{
+         width: 21%;
+}
+  

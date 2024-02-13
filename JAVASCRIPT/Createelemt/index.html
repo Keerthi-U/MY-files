@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* #main{
+        width: 30%;
+      
+        /* background-color: aquamarine; */
+    } */
+</style>
+<body>
+    <div class="main" id="main">
+
+    </div>
+    <button id ="create">BUtton</button>
+</body>
+<script>
+const btn =document.getElementById("create");
+btn.addEventListener("click", Addmore);
+
+
+function Addmore(){
+    alert("CINTA");
+    // var element = document.createElement("li");
+    // element.setAttribute("id","para");
+    // element.style.cssText = 'position:absolute;width:30%;height:20%;opacity:0.3;z-index:100;background:#000';
+    // // document.body.appendChild(element);
+    //   var ele = document.getElementById("main");
+    //   ele.appendChild(element);
+      
+      
+var giants = ['marx'];
+for(i=0; i<giants.length; i++) {
+   var g = document.createElement('li');
+   g.style.cssText = 'position:relative;width:30%;height:20%;margin:10px;z-index:100;color:black;font-weight:800;';
+   g.setAttribute('id', giants[i]);
+   g.innerHTML="cinta";
+   g.style.color="#16a8e3";
+   
+   var ele = document.getElementById("main");
+
+   ele.appendChild(g);
+}
+     
+}
+</script>
+</html>
