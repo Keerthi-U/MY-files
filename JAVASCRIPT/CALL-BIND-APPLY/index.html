@@ -7,6 +7,46 @@
     <title>Document</title>
 </head>
 <body>
+<script>
+    function displayname(){
+        console.log("zakirkeerthi");
+    }
 
+    displayname();
+    displayname.call();
+
+    let game1 ={
+
+        name: 'keerthicinta',
+        battery:'70',
+        // cargebattery :function (a,b) {
+        //     this.battery = this.battery+ a +b;
+        // }
+        cargebattery :function () {
+            this.battery = '33';
+        }
+    }
+    // console.log(game1);
+    // game1.cargebattery();
+    // console.log(game1);
+
+    let game2 ={
+
+name: 'keerthicinta',
+battery:'30',
+
+}
+
+// game1.cargebattery.call(game2);
+// game1.cargebattery.call(game2,10,20); you can pass the arugument sapareted by comma
+// game1.cargebattery.apply(game2, [10,20]);
+console.log(game2);
+let game3 = game1.cargebattery.bind(game2);
+game3();
+console.log(game2);
+
+
+// bind function doest not invoke the function immdiately but t return the funtion that you can use later
+</script>
 </body>
 </html>
